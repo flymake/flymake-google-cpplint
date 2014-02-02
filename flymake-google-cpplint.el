@@ -38,7 +38,7 @@
 (require 'flymake-easy)
 
 (defconst flymake-google-cpplint-err-line-patterns
-  '(("\\(.*\\):\\([[:digit:]]+\\):\\(.*\\)\r?\n"
+  '(("\\(.*\\):\\([[:digit:]]+\\): *\\(.*\\)\r?\n"
      1 2 nil 3)))
 
 (defcustom flymake-google-cpplint-verbose ""
