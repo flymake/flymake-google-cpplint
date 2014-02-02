@@ -2,9 +2,10 @@ flymake-google-cpplint.el
 =========================
 
 cpplint.py by Google for Emacs with flymake-mode.
+
 If you're want to write code according to the [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml), this will help a great deal.
 
-To use [Google-lint for C++](http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py) with Emacs, you will need `cpplint.py` installed.
+To use [cpplint.py](http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py) with Emacs, you will need `cpplint.py` installed.
 
 You should be able to run
 
@@ -19,6 +20,7 @@ Install cpplint.py
 ------------------
 
 Example:
+
     $ wget http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py
     $ sudo mv cpplint.py /usr/local/bin/cpplint.py
     $ sudo chmod 755 /usr/local/bin/cpplint.py
