@@ -1,4 +1,4 @@
-;;; flymake-google-cpplint.el --- Flymake work with cpplint for C/C++
+;;; flymake-google-cpplint.el --- Help to comply with the Google C++ Style Guide
 
 ;; Copyright 2014 Akiha Senda
 
@@ -29,9 +29,11 @@
 
 ;;; Commentary:
 
-;; Please check the GitHub
-;; (https://github.com/senda-akiha/flymake-google-cpplint/)
-;; for more information.
+;; If you're want to write code according to the [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml),
+;; this will help a great deal.
+
+;; For more infomations, please check the GitHub
+;; https://github.com/senda-akiha/flymake-google-cpplint/
 
 ;;; Code:
 
