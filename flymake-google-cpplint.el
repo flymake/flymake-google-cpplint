@@ -7,7 +7,7 @@
 ;; Created: 02 February 2014
 ;; Version: 1.0.0
 ;; Keywords: flymake, C, C++
-;; Package-Requires: ((flymake "0.4.16") (flymake-easy "0.9"))
+;; Package-Requires: ((flymake-easy "0.9"))
 
 ;; This file is not part of GNU Emacs.
 ;; However, it is distributed under the same license.
