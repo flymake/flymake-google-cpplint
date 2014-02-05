@@ -5,6 +5,8 @@ cpplint.py by Google for Emacs with flymake-mode.
 
 If you're want to write code according to the [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml), this will help a great deal.
 
+I recommend that the package [google-c-style](http://melpa.milkbox.net/#/google-c-style) also installed with.
+
 To use [cpplint.py](http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py) with Emacs, you will need `cpplint.py` installed.
 
 You should be able to run
