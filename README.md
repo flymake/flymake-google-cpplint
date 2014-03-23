@@ -40,7 +40,6 @@ Add to your Emacs config
 ------------------------
 
     (require 'flymake-google-cpplint)
-    (add-hook 'c-mode-hook 'flymake-google-cpplint-load)
     (add-hook 'c++-mode-hook 'flymake-google-cpplint-load)
 
 Configure for cpplint.py
@@ -69,3 +68,7 @@ One of 'tempdir or 'inplace (default).
 
     (custom-set-variables
      '(flymake-google-cpplint-location 'tempdir))
+
+# Notes
+
+`cpplint.py` does not support C source files.
