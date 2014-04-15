@@ -1,5 +1,10 @@
-flymake-google-cpplint.el
-=========================
+# Note
+
+##### I recommend that you use the [flycheck](https://github.com/flycheck/flycheck).
+
+##### Because, you can run the checker more than one. Of course, including [this](https://github.com/flycheck/flycheck-google-cpplint).
+
+# flymake-google-cpplint.el
 
 cpplint.py by Google for Emacs with flymake-mode.
 
@@ -11,63 +16,70 @@ To use [cpplint.py](http://google-styleguide.googlecode.com/svn/trunk/cpplint/cp
 
 You should be able to run
 
-    $ cpplint.py
+```sh
+$ cpplint.py
+```
 
 and, you'll also need to install [flymake-easy](https://github.com/purcell/flymake-easy).
 
-Usage
-=====
+# Usage
 
-Install cpplint.py
-------------------
+## Install cpplint.py
 
 Example:
 
-    $ wget http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py
-    $ sudo mv cpplint.py /usr/local/bin/cpplint.py
-    $ sudo chmod 755 /usr/local/bin/cpplint.py
+```sh
+$ wget http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py
+$ sudo mv cpplint.py /usr/local/bin/cpplint.py
+$ sudo chmod 755 /usr/local/bin/cpplint.py
+```
 
-Add to load-path
-----------------
+## Add to load-path
 
 You'll need to add the directory containing `flymake-google-cpplint.el` to your `load-path`.
 
 If not, also add to your config
 
-    (add-to-list 'load-path "~/.emacs.d/path/to/flymake-google-cpplint.el")
+```lisp
+(add-to-list 'load-path "~/.emacs.d/path/to/flymake-google-cpplint.el")
+```
 
-Add to your Emacs config
-------------------------
+## Add to your Emacs config
 
-    (require 'flymake-google-cpplint)
-    (add-hook 'c++-mode-hook 'flymake-google-cpplint-load)
+```lisp
+(require 'flymake-google-cpplint)
+(add-hook 'c++-mode-hook 'flymake-google-cpplint-load)
+```
 
-Configure for cpplint.py
-------------------------
+## Configure for cpplint.py
 
-    (custom-set-variables
-     '(flymake-google-cpplint-verbose "3")
-     '(flymake-google-cpplint-linelength "120")
-     ...
-     )
+```lisp
+(custom-set-variables
+ '(flymake-google-cpplint-verbose "3")
+ '(flymake-google-cpplint-linelength "120")
+ ...
+ )
+```
 
 For more information: [cpplint.py](http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py)
 
-cpplint.py command location
----------------------------
+## cpplint.py command location
 
 By default, the location of the `cpplint.py` command is searched.
 
-    (custom-set-variables
-     '(flymake-google-cpplint-command "/path/to/cpplint.py"))
+```lisp
+(custom-set-variables
+ '(flymake-google-cpplint-command "/path/to/cpplint.py"))
+```
 
-Where to create temporary copy
-------------------------------
+## Where to create temporary copy
 
 One of 'tempdir or 'inplace (default).
 
-    (custom-set-variables
-     '(flymake-google-cpplint-location 'tempdir))
+```lisp
+(custom-set-variables
+ '(flymake-google-cpplint-location 'tempdir))
+```
 
 # Notes
 
