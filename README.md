@@ -1,8 +1,8 @@
 # Note
 
-##### I recommend that you use the [flycheck](https://github.com/flycheck/flycheck).
+# I recommend that you use the [flycheck](https://github.com/flycheck/flycheck).
 
-##### Because, you can run the checker more than one. Of course, including [this](https://github.com/flycheck/flycheck-google-cpplint).
+# Because, you can run the checker more than one. Of course, including [this](https://github.com/flycheck/flycheck-google-cpplint).
 
 # flymake-google-cpplint.el
 
