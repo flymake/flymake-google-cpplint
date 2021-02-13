@@ -3,6 +3,8 @@ Because, you can run the checker more than one. Of course, including [this](http
 
 # flymake-google-cpplint.el
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 cpplint.py by Google for Emacs with flymake-mode.
 
 If you're want to write code according to the [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml), this will help a great deal.
