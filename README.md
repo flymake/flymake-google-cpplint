@@ -1,9 +1,11 @@
 **NOTE: I recommend that you use the [flycheck](https://github.com/flycheck/flycheck).
 Because, you can run the checker more than one. Of course, including [this](https://github.com/flycheck/flycheck-google-cpplint).**
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # flymake-google-cpplint.el
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CI](https://github.com/flymake/flymake-google-cpplint/actions/workflows/test.yml/badge.svg)](https://github.com/flymake/flymake-google-cpplint/actions/workflows/test.yml)
 
 cpplint.py by Google for Emacs with flymake-mode.
 
