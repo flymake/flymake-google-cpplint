@@ -1,5 +1,7 @@
-(source "melpa")
 (source "gnu")
+(source "melpa")
+
+(package "flymake-google-cpplint" "1.0.0" "Help to comply with the Google C++ Style Guide")
 
 (package-file "flymake-google-cpplint.el")
 
