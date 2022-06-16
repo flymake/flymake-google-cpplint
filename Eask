@@ -2,6 +2,9 @@
          "1.0.0"
          "Help to comply with the Google C++ Style Guide")
 
+(website-url "https://github.com/senda-akiha/flymake-google-cpplint/")
+(keywords "flymake" "C" "C++")
+
 (package-file "flymake-google-cpplint.el")
 
 (source "gnu")
